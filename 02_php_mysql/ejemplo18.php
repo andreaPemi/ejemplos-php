@@ -31,9 +31,9 @@
     // Mostrar el contenido de las filas
     if ($total > 0) {
       while ($fila = mysqli_fetch_assoc($r)) {
-        echo "<strong>" . $fila['titulo'] . "</strong><br />";
-        echo "Texto: " . $fila['texto'] . "<br />";
-        echo "Fecha: " . $fila['fecha'] . "<br /><br />";
+        echo "<strong>" . $fila['titulo'] . "</strong>";
+        echo "<p>Texto: " . $fila['texto'] . "</p>";
+        echo "<p>Fecha: " . $fila['fecha'] . "</p>";
       }
     }
 
