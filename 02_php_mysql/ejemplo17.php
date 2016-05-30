@@ -14,7 +14,7 @@
     "root".</p>
   <p>Cuenta las filas de la tabla "entrada".</p>
   <p>No hace comprobación de errores.</p>
-  <p>
+
   <?php
     // Abrir la conexión
     $conexion = mysqli_connect("localhost", "root", "root", "blog");
@@ -32,6 +32,5 @@
     // Cerrar la conexión
     mysqli_close($conexion);
   ?>
-  </p>
 </body>
 </html>
